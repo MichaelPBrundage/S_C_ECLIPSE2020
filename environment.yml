@@ -1,0 +1,19 @@
+name: eclipse
+dependencies:
+  - python=3.8
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - ipykernel
+  - xlrd
+  - nb_conda_kernels
+  - pip
+  - pip:
+    - clean-text
+    - pdfminer.six
+    - textstat
+    - xlsxwriter
+    - nltk
+    - numpy
+    - PyPDF2 
+    - seaborn
